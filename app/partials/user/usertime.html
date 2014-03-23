@@ -1,0 +1,35 @@
+<mainheader></mainheader>
+
+<!--content section
+this section holds the time sheet-->
+<div id="wrap">
+    <form name="myForm">
+    <div class="row">
+    <table class="table table table-condensed">
+        <tr>
+            <th ng-repeat="row in categories">{{row.value}}</th>
+            <th ng-repeat="row in timeHeaders">{{row | date :medium}}</th>
+        </tr>
+        <tr ng-repeat="row in timeDateData">
+            <td ng-repeat="category in categories">
+                <select class="form-control" ng-model="row.categories[category.id]"
+                        ng-options="index as category for (index,category) in projectCategories[category.id].data">
+                    <option></option>
+                </select>
+            </td>
+            <td ng-repeat="date in timeHeaders | orderBy: 'date'">
+
+                <input class="form-control" style="width: 60px;" ng-model="row.time[date]"
+                       name="{{date}}"
+                       type="number">
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class="row">
+        <button class="btn btn-primary" ng-click="addNewTimeLine()"> Add New </button>
+    </div>
+    </form>
+    <div class="row">{{timeDateData}}</div>
+    <div ng-show="!myForm.1395081000000.$invalid"> abc</div>
+</div>

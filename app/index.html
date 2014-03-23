@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" ng-app="login">
+<head>
+    <meta charset="utf-8">
+    <title>Time Tracker Login</title>
+    <link rel="stylesheet" href="css/user-customized.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="lib/jquery/jquery-1.10.2.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="js/Services/angular-cornercouch.js"></script>
+    <script src="js/HeadFootDirective.js"></script>
+    <script src="js/login/loginController.js"></script>
+</head>
+<body>
+<div class="content" ng-controller="LoginController">
+    <!--Login Page-->
+    <div class="container">
+        <div class="margin-zero row">
+            <div class="margin-top-30">
+                <div class="login-container border-radius">
+                    <!--Login From-->
+                    <form name=login" class="text-right">
+                        <!--Error Section-->
+                        <div ng-show="error.show" class="text-left has-error error">
+                            <div ng-show="error.incorrect"
+                                 class="form-control form-control-feedback">
+                                Username Or Password is incorrect
+                            </div>
+                            <div ng-show="error.blank" class="form-control form-control-feedback">
+                                Username Or Password cannot be blank
+                            </div>
+                        </div>
+                        <!--Error Section ends-->
+                        <!--Login inputs username and password-->
+                        <input class="form-control" type="text" name="username"
+                               ng-model="user.username"
+                               placeholder="Username">
+                        <input class="form-control" type="password" name="password"
+                               ng-model="user.password"
+                               placeholder="Password">
+                        <button type="button" class="btn btn-primary" ng-click="login()">Login
+                        </button>
+                        <!--End Login inputs username and password-->
+                    </form>
+                    <!--Login form ends-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Login page Ends-->
+</div>
+
+<mainfooter></mainfooter>
+</body>
+</html>

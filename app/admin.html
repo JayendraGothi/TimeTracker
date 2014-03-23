@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="adminApp">
+<head>
+    <meta charset="utf-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/user-customized.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="lib/jquery/jquery-1.10.2.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/libs/angular-ui/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    <script src="lib/angular/angular-route.js"></script>
+    <script src="js/admin/app.js"></script>
+    <script src="js/Services/angular-cornercouch.js"></script>
+    <script src="js/HeadFootDirective.js"></script>
+    <script src="js/admin/controller/ProjectController.js"></script>
+    <script src="js/admin/service/ProjectService.js"></script>
+    <script src="js/Constants/ConstantVariables.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row header">
+        <!--<div class="col-md-6"></div>-->
+        <div class="col-md-12">
+            <ul class="nav nav-pills nav-justified text-right">
+                <li class="active"><a href="/projects">Projects</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">TimeSheet</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ng-view class="view-frame"></div>
+</div>
+<mainfooter></mainfooter>
+</body>
+</html>

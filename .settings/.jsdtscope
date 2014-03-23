@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app/js"/>
+	<classpathentry excluding="i18n/" kind="src" path="app/lib/angular"/>
+	<classpathentry kind="src" path="app/lib/angular/i18n"/>
+	<classpathentry kind="src" path="app/lib/jquery"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="node_modules/.bin"/>
+	<classpathentry excluding="node_modules/lodash/dist/|node_modules/minimatch/node_modules/sigmund/test/|node_modules/http-proxy/node_modules/optimist/test/|node_modules/chokidar/|node_modules/connect/node_modules/cookie-signature/|node_modules/http-proxy/test/macros/|node_modules/useragent/bin/|node_modules/connect/node_modules/formidable/example/|node_modules/connect/node_modules/send/|node_modules/http-proxy/node_modules/utile/node_modules/async/lib/|node_modules/rimraf/test/|node_modules/connect/node_modules/fresh/|node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/test/|node_modules/http-proxy/node_modules/utile/node_modules/i/lib/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi/public/|lib/|node_modules/socket.io/node_modules/socket.io-client/components/component-emitter/|node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/tests/|lib/middleware/|node_modules/graceful-fs/test/|node_modules/connect/node_modules/send/lib/|node_modules/minimatch/node_modules/lru-cache/lib/|node_modules/connect/node_modules/cookie/|node_modules/useragent/|node_modules/connect/node_modules/formidable/test/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/lib/|node_modules/http-proxy/node_modules/utile/node_modules/ncp/test/|node_modules/connect/node_modules/bytes/|node_modules/socket.io/node_modules/socket.io-client/lib/|node_modules/connect/node_modules/formidable/|node_modules/socket.io/node_modules/socket.io-client/components/visionmedia-debug/|node_modules/http-proxy/node_modules/optimist/|node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/lib/transports/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/lib/|node_modules/http-proxy/test/ws/|node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/lib/|node_modules/http-proxy/test/helpers/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/nan/|node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/|node_modules/connect/node_modules/formidable/test/unit/|node_modules/connect/node_modules/formidable/test/fixture/js/|node_modules/socket.io/node_modules/socket.io-client/test/|node_modules/log4js/lib/streams/|node_modules/http-proxy/test/http/|node_modules/socket.io/node_modules/socket.io-client/components/component-json-fallback/|node_modules/http-proxy/node_modules/utile/test/helpers/|node_modules/log4js/node_modules/readable-stream/lib/|node_modules/connect/node_modules/buffer-crc32/tests/|node_modules/rimraf/|node_modules/connect/node_modules/send/node_modules/range-parser/|node_modules/useragent/features/|node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/example/|node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/examples/|node_modules/minimatch/node_modules/sigmund/|node_modules/socket.io/node_modules/redis/lib/|node_modules/socket.io/lib/transports/websocket/|node_modules/optimist/node_modules/wordwrap/|node_modules/http-proxy/test/core/simple/|node_modules/socket.io/node_modules/socket.io-client/lib/transports/|node_modules/optimist/|node_modules/http-proxy/benchmark/|node_modules/log4js/lib/appenders/|node_modules/log4js/node_modules/async/test/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/|node_modules/q/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/|node_modules/socket.io/benchmarks/|node_modules/useragent/lib/|node_modules/http-proxy/node_modules/optimist/node_modules/minimist/test/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3/|node_modules/connect/node_modules/formidable/test/legacy/simple/|node_modules/useragent/test/|node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/|node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/test/|node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/|node_modules/connect/node_modules/formidable/benchmark/|node_modules/http-proxy/examples/websocket/|node_modules/socket.io/node_modules/socket.io-client/bin/|node_modules/http-proxy/node_modules/utile/node_modules/ncp/lib/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/|node_modules/socket.io/lib/|node_modules/log4js/node_modules/async/|node_modules/http-proxy/node_modules/utile/node_modules/i/test/inflector/|node_modules/http-proxy/lib/node-http-proxy/|node_modules/optimist/node_modules/wordwrap/test/|node_modules/http-proxy/examples/balancer/|node_modules/http-proxy/node_modules/pkginfo/test/|node_modules/connect/node_modules/debug/|node_modules/q/benchmark/|node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/test/|node_modules/socket.io/node_modules/redis/|node_modules/socket.io/node_modules/policyfile/tests/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/|node_modules/http-proxy/node_modules/optimist/node_modules/minimist/|lib/reporters/|node_modules/glob/examples/|node_modules/socket.io/node_modules/base64id/lib/|node_modules/http-proxy/node_modules/utile/test/fixtures/require-directory/|node_modules/http-proxy/node_modules/utile/node_modules/i/test/utils/|node_modules/http-proxy/node_modules/utile/test/fixtures/require-directory/directory/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/expected/|node_modules/http-proxy/test/core/pummel/|node_modules/glob/test/|node_modules/http-proxy/node_modules/optimist/example/|node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/|node_modules/connect/node_modules/formidable/test/fixture/|node_modules/log4js/node_modules/semver/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/|node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/lib/|node_modules/socket.io/node_modules/socket.io-client/components/component-json/|node_modules/optimist/node_modules/wordwrap/example/|node_modules/log4js/test/|node_modules/socket.io/node_modules/redis/benches/|node_modules/connect/lib/middleware/|node_modules/useragent/node_modules/lru-cache/test/|node_modules/connect/lib/middleware/session/|node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap/example/|node_modules/connect/node_modules/pause/|node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats/|node_modules/minimatch/node_modules/lru-cache/test/|node_modules/socket.io/node_modules/redis/benches/stress/speed/|node_modules/socket.io/node_modules/socket.io-client/components/component-bind/|node_modules/mime/|node_modules/minimatch/|node_modules/log4js/examples/|node_modules/connect/|node_modules/optimist/example/|node_modules/log4js/node_modules/async/deps/|node_modules/colors/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/|node_modules/connect/node_modules/formidable/test/integration/|node_modules/http-proxy/node_modules/pkginfo/examples/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/|node_modules/connect/lib/|node_modules/http-proxy/node_modules/optimist/node_modules/minimist/example/|node_modules/socket.io/node_modules/redis/benches/stress/pubsub/|node_modules/socket.io/node_modules/socket.io-client/test/node/|static/|node_modules/socket.io/node_modules/policyfile/|node_modules/http-proxy/node_modules/utile/test/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/|node_modules/connect/node_modules/cookie/test/|node_modules/connect/node_modules/formidable/lib/|node_modules/minimatch/test/|node_modules/http-proxy/node_modules/pkginfo/lib/|node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap/test/|node_modules/connect/node_modules/formidable/test/standalone/|node_modules/http-proxy/test/core/|lib/launchers/|node_modules/di/lib/|node_modules/useragent/node_modules/lru-cache/lib/|node_modules/http-proxy/test/|node_modules/connect/node_modules/formidable/tool/|node_modules/log4js/node_modules/async/lib/|node_modules/socket.io/lib/stores/|node_modules/log4js/test/streams/|node_modules/http-proxy/examples/helpers/|node_modules/connect/node_modules/formidable/test/legacy/system/|node_modules/connect/node_modules/qs/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/|node_modules/socket.io/node_modules/socket.io-client/components/learnboost-socket.io-protocol/|node_modules/socket.io/node_modules/socket.io-client/dist/|node_modules/socket.io/node_modules/redis/benches/stress/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/|node_modules/coffee-script/lib/coffee-script/|node_modules/connect/node_modules/buffer-crc32/|node_modules/log4js/node_modules/async/dist/|node_modules/useragent/node_modules/lru-cache/|node_modules/socket.io/node_modules/socket.io-client/components/timoxley-to-array/|node_modules/http-proxy/node_modules/optimist/test/_/|node_modules/connect/node_modules/debug/lib/|node_modules/socket.io/node_modules/policyfile/examples/|node_modules/glob/|node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/example/|node_modules/optimist/test/_/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bench/|node_modules/log4js/node_modules/readable-stream/|node_modules/http-proxy/node_modules/utile/lib/|node_modules/socket.io/node_modules/redis/examples/|node_modules/graceful-fs/|node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/lib/|node_modules/connect/node_modules/uid2/|node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi/|node_modules/log4js/lib/|node_modules/glob/node_modules/inherits/|node_modules/optimist/test/|node_modules/socket.io/node_modules/redis/lib/parser/|node_modules/socket.io/|node_modules/http-proxy/lib/|node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/|node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/lib/|node_modules/http-proxy/examples/middleware/|node_modules/connect/node_modules/formidable/test/legacy/integration/|node_modules/http-proxy/examples/http/|node_modules/socket.io/node_modules/policyfile/lib/|node_modules/connect/node_modules/methods/|node_modules/socket.io/lib/transports/|node_modules/connect/node_modules/formidable/test/legacy/" kind="src" path="node_modules/karma"/>
+	<classpathentry kind="src" path="node_modules/karma-chrome-launcher"/>
+	<classpathentry excluding="node_modules/coffee-script/lib/coffee-script/" kind="src" path="node_modules/karma-coffee-preprocessor"/>
+	<classpathentry kind="src" path="node_modules/karma-coffee-preprocessor/node_modules/coffee-script/lib/coffee-script"/>
+	<classpathentry kind="src" path="node_modules/karma-firefox-launcher"/>
+	<classpathentry kind="src" path="node_modules/karma-html2js-preprocessor/lib"/>
+	<classpathentry kind="src" path="node_modules/karma-jasmine/lib"/>
+	<classpathentry excluding="node_modules/xmlbuilder/lib/" kind="src" path="node_modules/karma-junit-reporter"/>
+	<classpathentry kind="src" path="node_modules/karma-junit-reporter/node_modules/xmlbuilder/lib"/>
+	<classpathentry excluding="node_modules/phantomjs/node_modules/mkdirp/examples/|node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/lib/|node_modules/phantomjs/node_modules/adm-zip/|node_modules/phantomjs/node_modules/mkdirp/|node_modules/phantomjs/node_modules/mkdirp/test/|node_modules/phantomjs/lib/phantom/examples/|node_modules/phantomjs/node_modules/kew/|node_modules/phantomjs/node_modules/npmconf/node_modules/once/|node_modules/phantomjs/node_modules/rimraf/|node_modules/phantomjs/node_modules/adm-zip/methods/|node_modules/phantomjs/node_modules/npmconf/node_modules/inherits/|node_modules/phantomjs/node_modules/adm-zip/headers/|node_modules/phantomjs/node_modules/npmconf/test/|node_modules/phantomjs/node_modules/npmconf/node_modules/osenv/|node_modules/phantomjs/node_modules/ncp/test/|node_modules/phantomjs/node_modules/ncp/lib/|node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/bin/|node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/test/|node_modules/phantomjs/|node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/|node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/|node_modules/phantomjs/node_modules/npmconf/node_modules/ini/test/|node_modules/phantomjs/node_modules/adm-zip/util/|node_modules/phantomjs/test/|node_modules/phantomjs/node_modules/npmconf/node_modules/once/test/|node_modules/phantomjs/node_modules/kew/test/|node_modules/phantomjs/node_modules/which/|node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/examples/|node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/node_modules/abbrev/lib/|node_modules/phantomjs/node_modules/npmconf/node_modules/osenv/test/|node_modules/phantomjs/node_modules/npmconf/|node_modules/phantomjs/node_modules/npmconf/node_modules/semver/|node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/test/|node_modules/phantomjs/node_modules/npmconf/node_modules/ini/|node_modules/phantomjs/node_modules/rimraf/test/|node_modules/phantomjs/lib/" kind="src" path="node_modules/karma-phantomjs-launcher"/>
+	<classpathentry excluding="node_modules/mkdirp/examples/|node_modules/npmconf/node_modules/nopt/lib/|node_modules/adm-zip/|node_modules/mkdirp/|node_modules/mkdirp/test/|lib/phantom/examples/|node_modules/kew/|node_modules/npmconf/node_modules/once/|node_modules/rimraf/|node_modules/adm-zip/methods/|node_modules/npmconf/node_modules/inherits/|node_modules/adm-zip/headers/|node_modules/npmconf/test/|node_modules/npmconf/node_modules/osenv/|node_modules/ncp/test/|node_modules/ncp/lib/|node_modules/npmconf/node_modules/nopt/bin/|node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/test/|node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/|node_modules/npmconf/node_modules/config-chain/|node_modules/npmconf/node_modules/ini/test/|node_modules/adm-zip/util/|test/|node_modules/npmconf/node_modules/once/test/|node_modules/kew/test/|node_modules/which/|node_modules/npmconf/node_modules/nopt/examples/|node_modules/npmconf/node_modules/nopt/node_modules/abbrev/lib/|node_modules/npmconf/node_modules/osenv/test/|node_modules/npmconf/|node_modules/npmconf/node_modules/semver/|node_modules/npmconf/node_modules/config-chain/test/|node_modules/npmconf/node_modules/ini/|node_modules/rimraf/test/|lib/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs"/>
+	<classpathentry excluding="phantom/examples/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/examples"/>
+	<classpathentry excluding="methods/|headers/|util/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip/headers"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip/methods"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/adm-zip/util"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/kew/test"/>
+	<classpathentry excluding="examples/|test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp/lib"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/ncp/test"/>
+	<classpathentry excluding="node_modules/nopt/lib/|node_modules/once/|node_modules/inherits/|test/|node_modules/osenv/|node_modules/nopt/bin/|node_modules/config-chain/node_modules/proto-list/test/|node_modules/config-chain/node_modules/proto-list/|node_modules/config-chain/|node_modules/ini/test/|node_modules/once/test/|node_modules/nopt/examples/|node_modules/nopt/node_modules/abbrev/lib/|node_modules/osenv/test/|node_modules/semver/|node_modules/config-chain/test/|node_modules/ini/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf"/>
+	<classpathentry excluding="node_modules/proto-list/test/|node_modules/proto-list/|test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/config-chain/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/inherits"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/ini"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/ini/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/bin"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/examples"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/lib"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/nopt/node_modules/abbrev/lib"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/once"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/once/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/osenv"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/osenv/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/node_modules/semver"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/npmconf/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/rimraf/test"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/node_modules/which"/>
+	<classpathentry kind="src" path="node_modules/karma-phantomjs-launcher/node_modules/phantomjs/test"/>
+	<classpathentry kind="src" path="node_modules/karma-requirejs/lib"/>
+	<classpathentry kind="src" path="node_modules/karma-script-launcher"/>
+	<classpathentry excluding="middleware/|reporters/|launchers/" kind="src" path="node_modules/karma/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/lib/launchers"/>
+	<classpathentry kind="src" path="node_modules/karma/lib/middleware"/>
+	<classpathentry kind="src" path="node_modules/karma/lib/reporters"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/chokidar"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/coffee-script/lib/coffee-script"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/colors"/>
+	<classpathentry excluding="node_modules/cookie-signature/|node_modules/formidable/example/|node_modules/send/|node_modules/fresh/|node_modules/send/lib/|node_modules/cookie/|node_modules/formidable/test/|node_modules/bytes/|node_modules/formidable/|node_modules/formidable/test/unit/|node_modules/formidable/test/fixture/js/|node_modules/buffer-crc32/tests/|node_modules/send/node_modules/range-parser/|node_modules/formidable/test/legacy/simple/|node_modules/formidable/benchmark/|node_modules/debug/|node_modules/formidable/test/fixture/|lib/middleware/|lib/middleware/session/|node_modules/pause/|node_modules/formidable/test/integration/|lib/|node_modules/cookie/test/|node_modules/formidable/lib/|node_modules/formidable/test/standalone/|node_modules/formidable/tool/|node_modules/formidable/test/legacy/system/|node_modules/qs/|node_modules/buffer-crc32/|node_modules/debug/lib/|node_modules/uid2/|node_modules/formidable/test/legacy/integration/|node_modules/methods/|node_modules/formidable/test/legacy/" kind="src" path="node_modules/karma/node_modules/connect"/>
+	<classpathentry excluding="middleware/|middleware/session/" kind="src" path="node_modules/karma/node_modules/connect/lib"/>
+	<classpathentry excluding="session/" kind="src" path="node_modules/karma/node_modules/connect/lib/middleware"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/lib/middleware/session"/>
+	<classpathentry excluding="tests/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/buffer-crc32"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/buffer-crc32/tests"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/bytes"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/cookie"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/cookie-signature"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/cookie/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/debug"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/debug/lib"/>
+	<classpathentry excluding="example/|test/|test/unit/|test/fixture/js/|test/legacy/simple/|benchmark/|test/fixture/|test/integration/|lib/|test/standalone/|tool/|test/legacy/system/|test/legacy/integration/|test/legacy/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/benchmark"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/lib"/>
+	<classpathentry excluding="unit/|fixture/js/|legacy/simple/|fixture/|integration/|standalone/|legacy/system/|legacy/integration/|legacy/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test"/>
+	<classpathentry excluding="js/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/fixture"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/fixture/js"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/integration"/>
+	<classpathentry excluding="simple/|system/|integration/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/legacy"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/legacy/integration"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/legacy/simple"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/legacy/system"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/standalone"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/test/unit"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/formidable/tool"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/fresh"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/methods"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/pause"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/qs"/>
+	<classpathentry excluding="lib/|node_modules/range-parser/" kind="src" path="node_modules/karma/node_modules/connect/node_modules/send"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/send/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/send/node_modules/range-parser"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/connect/node_modules/uid2"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/di/lib"/>
+	<classpathentry excluding="examples/|test/|node_modules/inherits/" kind="src" path="node_modules/karma/node_modules/glob"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/glob/examples"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/glob/node_modules/inherits"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/glob/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma/node_modules/graceful-fs"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/graceful-fs/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/benchmark"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/examples/balancer"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/examples/helpers"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/examples/http"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/examples/middleware"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/examples/websocket"/>
+	<classpathentry excluding="node-http-proxy/" kind="src" path="node_modules/karma/node_modules/http-proxy/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/lib/node-http-proxy"/>
+	<classpathentry excluding="test/|node_modules/minimist/test/|node_modules/wordwrap/|node_modules/minimist/|example/|node_modules/wordwrap/example/|node_modules/minimist/example/|node_modules/wordwrap/test/|test/_/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/example"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/minimist"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/minimist/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/minimist/test"/>
+	<classpathentry excluding="example/|test/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/node_modules/wordwrap/test"/>
+	<classpathentry excluding="_/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/optimist/test/_"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/pkginfo/examples"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/pkginfo/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/pkginfo/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/async/lib"/>
+	<classpathentry excluding="lib/|example/|test/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/deep-equal"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/deep-equal/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/i/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/i/test/inflector"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/i/test/utils"/>
+	<classpathentry excluding="test/|examples/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/mkdirp"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/examples"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/mkdirp/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/ncp/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/node_modules/ncp/test"/>
+	<classpathentry excluding="helpers/|fixtures/require-directory/|fixtures/require-directory/directory/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/test"/>
+	<classpathentry excluding="directory/" kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/test/fixtures/require-directory"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/test/fixtures/require-directory/directory"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/node_modules/utile/test/helpers"/>
+	<classpathentry excluding="macros/|ws/|helpers/|http/|core/simple/|core/pummel/|core/" kind="src" path="node_modules/karma/node_modules/http-proxy/test"/>
+	<classpathentry excluding="simple/|pummel/" kind="src" path="node_modules/karma/node_modules/http-proxy/test/core"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/core/pummel"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/core/simple"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/helpers"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/http"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/macros"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/http-proxy/test/ws"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/lodash/dist"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/examples"/>
+	<classpathentry excluding="streams/|appenders/" kind="src" path="node_modules/karma/node_modules/log4js/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/lib/appenders"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/lib/streams"/>
+	<classpathentry excluding="test/|deps/|lib/|dist/" kind="src" path="node_modules/karma/node_modules/log4js/node_modules/async"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/async/deps"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/async/dist"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/async/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/async/test"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/karma/node_modules/log4js/node_modules/readable-stream"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/readable-stream/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/node_modules/semver"/>
+	<classpathentry excluding="streams/" kind="src" path="node_modules/karma/node_modules/log4js/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/log4js/test/streams"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/mime"/>
+	<classpathentry excluding="node_modules/sigmund/test/|node_modules/lru-cache/lib/|node_modules/sigmund/|node_modules/lru-cache/test/|test/" kind="src" path="node_modules/karma/node_modules/minimatch"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/minimatch/node_modules/lru-cache/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/minimatch/node_modules/lru-cache/test"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma/node_modules/minimatch/node_modules/sigmund"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/minimatch/node_modules/sigmund/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/minimatch/test"/>
+	<classpathentry excluding="node_modules/wordwrap/|node_modules/wordwrap/test/|node_modules/wordwrap/example/|example/|test/_/|test/" kind="src" path="node_modules/karma/node_modules/optimist"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/optimist/example"/>
+	<classpathentry excluding="test/|example/" kind="src" path="node_modules/karma/node_modules/optimist/node_modules/wordwrap"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/optimist/node_modules/wordwrap/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/optimist/node_modules/wordwrap/test"/>
+	<classpathentry excluding="_/" kind="src" path="node_modules/karma/node_modules/optimist/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/optimist/test/_"/>
+	<classpathentry excluding="benchmark/" kind="src" path="node_modules/karma/node_modules/q"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/q/benchmark"/>
+	<classpathentry excluding="test/" kind="src" path="node_modules/karma/node_modules/rimraf"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/rimraf/test"/>
+	<classpathentry excluding="node_modules/socket.io-client/node_modules/ws/examples/fileapi/public/|node_modules/socket.io-client/components/component-emitter/|node_modules/socket.io-client/node_modules/xmlhttprequest/tests/|node_modules/socket.io-client/node_modules/ws/node_modules/commander/lib/|node_modules/socket.io-client/lib/|node_modules/socket.io-client/components/visionmedia-debug/|node_modules/socket.io-client/components/learnboost-engine.io-client/lib/transports/|node_modules/socket.io-client/node_modules/ws/node_modules/options/lib/|node_modules/socket.io-client/node_modules/ws/node_modules/nan/|node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/|node_modules/socket.io-client/test/|node_modules/socket.io-client/components/component-json-fallback/|node_modules/redis/lib/|lib/transports/websocket/|node_modules/socket.io-client/lib/transports/|node_modules/socket.io-client/node_modules/uglify-js/tmp/|node_modules/socket.io-client/node_modules/ws/lib/|benchmarks/|node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3/|node_modules/socket.io-client/node_modules/active-x-obfuscator/|node_modules/socket.io-client/bin/|node_modules/socket.io-client/node_modules/ws/test/|lib/|node_modules/socket.io-client/node_modules/uglify-js/|node_modules/socket.io-client/node_modules/ws/node_modules/options/test/|node_modules/redis/|node_modules/policyfile/tests/|node_modules/socket.io-client/node_modules/ws/node_modules/commander/|node_modules/base64id/lib/|node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/expected/|node_modules/socket.io-client/node_modules/uglify-js/test/|node_modules/socket.io-client/components/learnboost-engine.io-client/lib/|node_modules/socket.io-client/components/component-json/|node_modules/redis/benches/|node_modules/redis/benches/stress/rpushblpop/|node_modules/socket.io-client/node_modules/ws/examples/serverstats/|node_modules/redis/benches/stress/speed/|node_modules/socket.io-client/components/component-bind/|node_modules/socket.io-client/node_modules/uglify-js/test/unit/|node_modules/socket.io-client/node_modules/ws/examples/|node_modules/redis/benches/stress/pubsub/|node_modules/socket.io-client/test/node/|node_modules/policyfile/|node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/|lib/stores/|node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/|node_modules/socket.io-client/components/learnboost-socket.io-protocol/|node_modules/socket.io-client/dist/|node_modules/redis/benches/stress/|node_modules/socket.io-client/node_modules/ws/|node_modules/socket.io-client/components/timoxley-to-array/|node_modules/policyfile/examples/|node_modules/socket.io-client/node_modules/xmlhttprequest/example/|node_modules/socket.io-client/node_modules/ws/bench/|node_modules/redis/examples/|node_modules/socket.io-client/node_modules/uglify-js/lib/|node_modules/socket.io-client/node_modules/ws/examples/fileapi/|node_modules/redis/lib/parser/|node_modules/socket.io-client/lib/vendor/web-socket-js/|node_modules/socket.io-client/node_modules/xmlhttprequest/lib/|node_modules/policyfile/lib/|lib/transports/" kind="src" path="node_modules/karma/node_modules/socket.io"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/benchmarks"/>
+	<classpathentry excluding="transports/websocket/|stores/|transports/" kind="src" path="node_modules/karma/node_modules/socket.io/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/lib/stores"/>
+	<classpathentry excluding="websocket/" kind="src" path="node_modules/karma/node_modules/socket.io/lib/transports"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/lib/transports/websocket"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/base64id/lib"/>
+	<classpathentry excluding="tests/|examples/|lib/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/policyfile"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/policyfile/examples"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/policyfile/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/policyfile/tests"/>
+	<classpathentry excluding="lib/|benches/|benches/stress/rpushblpop/|benches/stress/speed/|benches/stress/pubsub/|benches/stress/|examples/|lib/parser/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis"/>
+	<classpathentry excluding="stress/rpushblpop/|stress/speed/|stress/pubsub/|stress/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/benches"/>
+	<classpathentry excluding="rpushblpop/|speed/|pubsub/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/pubsub"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/benches/stress/speed"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/examples"/>
+	<classpathentry excluding="parser/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/redis/lib/parser"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/bin"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/component-bind"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/component-emitter"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/component-json"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/component-json-fallback"/>
+	<classpathentry excluding="transports/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/lib/transports"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-socket.io-protocol"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/timoxley-to-array"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/components/visionmedia-debug"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/dist"/>
+	<classpathentry excluding="transports/|vendor/web-socket-js/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/transports"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js"/>
+	<classpathentry excluding="node_modules/zeparser/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser"/>
+	<classpathentry excluding="tmp/|test/unit/compress/expected/|test/|test/unit/|test/unit/compress/test/|lib/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/lib"/>
+	<classpathentry excluding="unit/compress/expected/|unit/|unit/compress/test/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test"/>
+	<classpathentry excluding="compress/expected/|compress/test/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/expected"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp"/>
+	<classpathentry excluding="examples/fileapi/public/|node_modules/commander/lib/|node_modules/options/lib/|node_modules/nan/|lib/|examples/serverstats-express_3/|test/|node_modules/options/test/|node_modules/commander/|examples/serverstats/|examples/|node_modules/tinycolor/|bench/|examples/fileapi/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bench"/>
+	<classpathentry excluding="fileapi/public/|serverstats-express_3/|serverstats/|fileapi/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples"/>
+	<classpathentry excluding="public/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/fileapi/public"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/examples/serverstats-express_3"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/nan"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/example"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/tests"/>
+	<classpathentry excluding="node/" kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/test/node"/>
+	<classpathentry excluding="bin/|features/|lib/|test/|node_modules/lru-cache/test/|node_modules/lru-cache/lib/|node_modules/lru-cache/" kind="src" path="node_modules/karma/node_modules/useragent"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/bin"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/features"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/lib"/>
+	<classpathentry excluding="test/|lib/" kind="src" path="node_modules/karma/node_modules/useragent/node_modules/lru-cache"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/node_modules/lru-cache/lib"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/node_modules/lru-cache/test"/>
+	<classpathentry kind="src" path="node_modules/karma/node_modules/useragent/test"/>
+	<classpathentry kind="src" path="node_modules/karma/static"/>
+	<classpathentry excluding="bin/" kind="src" path="node_modules/requirejs"/>
+	<classpathentry kind="src" path="node_modules/requirejs/bin"/>
+	<classpathentry excluding="private/" kind="src" path="scripts"/>
+	<classpathentry kind="src" path="scripts/private"/>
+	<classpathentry kind="src" path="test/e2e"/>
+	<classpathentry kind="src" path="test/lib/angular"/>
+	<classpathentry kind="src" path="test/unit"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
